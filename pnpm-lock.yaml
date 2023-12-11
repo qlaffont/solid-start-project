@@ -23,6 +23,9 @@ dependencies:
   solid-start-cmp:
     specifier: github:qlaffont/solid-start-cmp
     version: github.com/qlaffont/solid-start-cmp/669e0811862efb81fae0bc5bc52fe7d0f93c4257(solid-start-node@0.3.9)(vite@4.5.0)
+  vite-multiple-assets:
+    specifier: ^1.2.6
+    version: 1.2.6(mime-types@2.1.35)(vite@4.5.0)
 
 devDependencies:
   autoprefixer:
@@ -3291,6 +3294,16 @@ packages:
   /vary@1.1.2:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
+
+  /vite-multiple-assets@1.2.6(mime-types@2.1.35)(vite@4.5.0):
+    resolution: {integrity: sha512-/ZQdpCqNWdqj/jO5wQHtvWaV1nYKbUH+e/1lDNy+OXiQot2YbWGoGDDFxAu8PI/k3nRpAXpPpmpv48CvhNlVWg==}
+    peerDependencies:
+      mime-types: ^2.1.35
+      vite: '>=2.9.6'
+    dependencies:
+      mime-types: 2.1.35
+      vite: 4.5.0
+    dev: false
 
   /vite-plugin-inspect@0.7.41(rollup@3.29.4)(vite@4.5.0):
     resolution: {integrity: sha512-gASdFRO4CHDQF8qAk9LZEJyzlIJM4bFvDn7hz0e2r1PS6uq+yukd8+jHctOAbvCceQoTS5iDAgd4/mWcGWYoMw==}

@@ -20,7 +20,8 @@
     "classix": "^2.1.35",
     "solid-js": "^1.8.5",
     "solid-start": "^0.3.9",
-    "solid-start-cmp": "github:qlaffont/solid-start-cmp"
+    "solid-start-cmp": "github:qlaffont/solid-start-cmp",
+    "vite-multiple-assets": "^1.2.6"
   },
   "engines": {
     "node": "18"

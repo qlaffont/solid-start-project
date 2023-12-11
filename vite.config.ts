@@ -1,6 +1,11 @@
 import solid from "solid-start/vite";
-import { defineConfig } from "vite";
+import {defineConfig} from "vite";
+import DynamicPublicDirectory from 'vite-multiple-assets';
 
 export default defineConfig({
-  plugins: [solid()],
+  ssr: {
+    external: ["solid-start-cmp"]
+  },
+  plugins: [solid(),
+    DynamicPublicDirectory(['node_modules/solid-start-cmp/public','public']),],
 });
